@@ -37,3 +37,4 @@ jobs:
         with:
           artifacts: "build/app/outputs/apk/debug/*.apk"
           token: "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"
+          fetch-depth: 0
