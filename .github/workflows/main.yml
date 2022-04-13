@@ -45,7 +45,7 @@ jobs:
           name: gitversion
       - name: Read version
         id: version
-        uses: jaygadariya/read-file-action@v1
+        uses: juliangruber/read-file-action@v1
         with:
           path: version.txt
       - run: flutter pub get
